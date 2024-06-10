@@ -10,11 +10,6 @@ public abstract class Vehicle {
         this.kilometers = 0;
     }
 
-    public Vehicle(String brand, int kilometers) {
-        this.brand = brand;
-        this.kilometers = kilometers;
-    }
-
     public String getBrand() {
         return brand;
     }
